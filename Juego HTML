@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lobural - El juego de cartas de memoria</title>
+	<meta charset="utf-8">
+	<meta name="description" content="El mejor juego de cartas de memoria de toda la red.">
+	<meta name="author" content="Grupo M">
+	<link rel="shortcut icon" type="image/x-icon" href="img/icon.ico"/>
+	<link rel ="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+	<script type="text/javascript" src="js/juego.js"></script>
+</head>
+<body>
+	<header>
+		<a href="#in" target="_self" onclick="window.location.reload()">
+			<img id="logo" src="img/lobural.png" alt="Logo">
+		</a>
+	</header>
+	<ul class="menu">
+		<li><a href="#game" onclick="muestraCartas()">Juego </a></li>
+		<li><a href="main.html" target="_self">Miembros</a></li>
+		<li><a href="main.html" target="_self">Desarrollo</a></li>
+		<li><a href="main.html" target="_self">Referencias</a></li>
+		<li class="right"><a href="main.html" target="_self">Puntuación</a></li>
+	</ul>
+	<a name = "game"/>
+	<div id="number"></div>
+	<div class="canvas">
+		<canvas id="myCanvas" width="800" height="500">
+			ERROR. Tu navegador no es compatible con canvas.
+		</canvas>
+	</div>
+	<img id="carta" src="img/carta.jpg" alt="carta" style = "display: none;">
+	<img id="paris" src="img/Paris.jpg" alt="paris" style = "display: none;">
+	<img id="libertad" src="img/libertad.jpg" alt="libertad" style = "display: none;">
+	<img id="oporto" src="img/oporto.jpg" alt="oporto" style = "display: none;">
+	<img id="casa" src="img/casa.jpg" alt="casa" style = "display: none;">
+	<img id="taj" src="img/taj.jpg" alt="taj" style = "display: none;">
+	<img id="stone" src="img/stone.jpg" alt="stone" style = "display: none;">
+	
+</body>
+</html>
