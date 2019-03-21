@@ -1,0 +1,125 @@
+# Lobural@font-face {
+	font-family: softice-cream;
+	src: url('../res/AC-softice-cream.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: black;
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	height: 120px;
+	background-color: white;
+	
+}
+
+#logo {
+	border: 0;
+	display: block;
+	width: auto;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	background-image: url("../img/fondo.png");
+	background-size: 180px;
+}
+
+footer {
+	background-color: white;
+	font-size: 1.2vw;
+	text-align: center;
+	padding: 5%;
+}
+
+h1.title {
+	text-align: left;
+	font-family: softice-cream;
+	font-size: 3vw;
+	color: #F7AA00;
+	margin: 5% 10% 0% 10%;
+}
+
+ul.menu {
+	background-color: white;
+	box-sizing: border-box;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+	width: 100%;
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+}
+
+ul.menu li {
+	float: left;
+	width: 12%;
+	border: 3px solid white;
+}
+
+ul.menu li.right {
+	float: right;
+	background-color: #51A1FF;
+}
+
+ul.menu li a {
+	color: #F7AA00;
+	display: block;
+	padding: 10% 10%;
+	font-family: softice-cream;
+	text-align: center;
+	font-size: 1.4vw;
+	text-decoration: none;
+}
+
+ul.menu li.right a{
+	color: white;
+}
+
+ul.menu li a:hover{
+	background-color: #F7AA00;
+	color: white;
+}
+
+.member{
+	border: 3px solid white;
+	border-radius: 50px;
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 3% 10% 0% 10%;
+	padding: 5% 5%;
+	text-align: left;
+	font-size: 1.2vw;
+}
+
+.member h3{
+	text-align: center;
+	font-family: softice-cream;
+	font-size: 2.5vw;
+	color: #51A1FF;
+	margin: 0% 0% 3% 0%;
+}
+
+div.canvas {
+	text-align: center;
+}
+
+div.canvas canvas {
+	display: inline;
+	padding-top: 80px;
+	
+}
+
+#number {
+	font-size:50px;
+	color:#FFF;
+}
