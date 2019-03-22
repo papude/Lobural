@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Lobural - El juego de cartas de memoria</title>
+	<meta charset="utf-8">
+	<meta name="description" content="El mejor juego de cartas de memoria de toda la red.">
+	<meta name="author" content="Grupo M">
+	<link rel="shortcut icon" type="image/x-icon" href="img/icon.ico"/>
+	<link rel ="stylesheet" type="text/css" href="css/style.css" media="screen"/>
+	<script type="text/javascript" src="js/juego.js"></script>
+</head>
+<body>
+	<header>
+		<a href="#" target="_self" onclick="window.location.reload()">
+			<img id="logo" src="img/lobural.png" alt="Logo">
+		</a>
+	</header>
+	<ul class="menu">
+		<li><a href="game.html" target="_self">Juego</a></li>
+		<li><a href="#desc">Descripción</a></li>
+		<li><a href="#memb">Miembros</a></li>
+		<li><a href="#dev">Desarrollo</a></li>
+		<li><a href="#ref">Referencias</a></li>
+		<li class="right"><a href="#">Puntuación</a></li>
+	</ul>
+	
+	<h1>Juego Principal</h1>
+	<div class = "cuadro">
+		<h3>¿Quieres jugar?</h3>
+		<form id="formulario" action="datos.php" method="post">
+			<label for="nombre">Introduzca su Nombre: </label>
+			<input type="text" name="nombre" id="nombre" value="" required>
+
+			<label for="nick">Introduzca su Nick: </label>
+			<input type="text" name="nick" id="nick" value="" required>		
+		
+			<div class = "input">
+				<input type="submit" value="JUGAR" onclick = "location='game.html'">
+			</div>
+			
+		<!-- <p>Introduce tu nombre: <input name="nombre" type="text"/></p>
+		<p>Introduce tu fecha de nacimiento: <input name="fecha" type="date"/></p>
+		<p> Pulsa en JUGAR para comenzar tu partida </p> 
+		<p><input type = "button" value = "JUGAR" onclick = "location='game.html'" -->
+		</form>
+	</div>
+	
+	<a name="desc"/>
+	<h1>Descripción del Juego</h1>
+	<div class = "cuadro">
+		<h3>Objetivo</h3>
+		<p>El equipo M presentamos Lobural, un juego de memoria para niños y no tan niños, que pondrá a prueba tu memoria visual y te ayudará a potenciar tu concentración y atención.</p>
+		<p>Lobural tiene como objetivo conseguir el mayor número de parejas posibles, superando nivel tras nivel, y llegando al de mayor dificultad.</p>
+		
+		<h3>Temática</h3>
+		<p>Una vez vamos superando los niveles podemos ver las distintas cartas, tanto de paisajes como de animales, blablabla</p>
+		
+		<h3>Instrucciones</h3>
+		<p>Para cada nivel, se requiere que el jugador haga click sobre las distintas cartas y encuentre todas las parejas en el menor número de clicks posibles. Deberá voltear dos cartas, y si estas no coinciden se darán la vuelta automáticamente.
+		Cuando se supere el primer nivel, el usuario tendrá la opción de jugar el siguiente nivel o salir del juego. Cada nivel es más difícil que el anterior.</p>
+	</div>
+	
+	
+	<a name="memb"/>
+	<h1>Miembros</h1>
+	<div class = "cuadro">
+		<h3>Marina Torres Vega</h3>
+		<p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. Frisaba la edad de nuestro hidalgo con los cincuenta años; era de complexión recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. Quieren decir que tenía el sobrenombre de Quijada, o Quesada, que en esto hay alguna diferencia en los autores que deste caso escriben; aunque por conjeturas verosímiles se deja entender que se llamaba Quijana. Pero esto importa poco a nuestro cuento: basta que en la narración dél no se salga un punto de la verdad.
+		</p>
+		
+		<h3>Manrique Ruano Martínez</h3>
+		<p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. Frisaba la edad de nuestro hidalgo con los cincuenta años; era de complexión recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. Quieren decir que tenía el sobrenombre de Quijada, o Quesada, que en esto hay alguna diferencia en los autores que deste caso escriben; aunque por conjeturas verosímiles se deja entender que se llamaba Quijana. Pero esto importa poco a nuestro cuento: basta que en la narración dél no se salga un punto de la verdad.
+		</p>
+	
+		<h3>Fernando Pargas Nieto</h3>
+		<p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. Frisaba la edad de nuestro hidalgo con los cincuenta años; era de complexión recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. Quieren decir que tenía el sobrenombre de Quijada, o Quesada, que en esto hay alguna diferencia en los autores que deste caso escriben; aunque por conjeturas verosímiles se deja entender que se llamaba Quijana. Pero esto importa poco a nuestro cuento: basta que en la narración dél no se salga un punto de la verdad.
+		</p>
+	
+		<h3>Paula Puente Delgado</h3>
+		<p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda. El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino. Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera. Frisaba la edad de nuestro hidalgo con los cincuenta años; era de complexión recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. Quieren decir que tenía el sobrenombre de Quijada, o Quesada, que en esto hay alguna diferencia en los autores que deste caso escriben; aunque por conjeturas verosímiles se deja entender que se llamaba Quijana. Pero esto importa poco a nuestro cuento: basta que en la narración dél no se salga un punto de la verdad.
+		</p>
+	</div>
+
+	<a name="dev"/>
+	<h1>Desarrollo del juego</h1>
+	<div class = "cuadro">
+		<h3>Responsabilidades</h3>
+			<p><b>Marina:</b>Se ha encargado de...</p>
+			<p><b>Manrique:</b>Se ha encargado de...</p>
+			<p><b>Fernando:</b>Se ha encargado de...</p>
+			<p><b>Paula:</b>Se ha encargado de...</p>
+		
+		<h3>Técnicas y Tecnologías</h3>
+		<p>blablabalbalablasjdaskhgdasgkdsjhbjxaskbfdskajhfhfhslfhshfskhfsdjvbdfkgkdf</p>
+		
+		<h3>Problemas y Dificultades</h3>
+		<p>Uno de los principales problemas que hemos tenido a la hora de implementar Lobural ha sido la posición 
+		de cada una de las imágenes, desde un principio no lo supimos adaptar a todos los tamaños de pantalla, pero finalmente lo conseguimos</p>
+		
+		<h3>Puntos Fuertes del Proyecto</h3>
+		<p>blablabalbalablasjdaskhgdasgkdsjhbjxaskbfdskajhfhfhslfhshfskhfsdjvbdfkgkdf</p>
+	
+		<h3>Planificación</h3>
+		<p>blablabalbalablasjdaskhgdasgkdsjhbjxaskbfdskajhfhfhslfhshfskhfsdjvbdfkgkdf</p>
+	</div>
+	
+	<a name="ref"/>
+	<h1>Referencias</h1>
+	<div class = "cuadro" id="refer">
+		<p>Hemos usado esta página web tanto para HTML y CSS como para JavaScript: <a href="https://www.w3schools.com/">www.w3schools.com</a></p>
+		<p>Para tomar ideas sobre la implementación del código: <a href="https://devcode.la/tutoriales/juego-coincidencia-de-cartas/">devcode.la/tutoriales/juego-coincidencia-de-cartas/</a></p>
+		<p>Los apuntes de Aula Global de la asignatura: <a href="https://aulaglobal.uc3m.es/">aulaglobal.uc3m.es</a></p>
+	</div>
+	
+	<footer>
+		<p>Hecho por grupo M.</p>
+	</footer>
+	
+</body>
+</html>
